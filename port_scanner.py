@@ -348,7 +348,7 @@ class PortScannerGUI:
             textvariable=self.preset_var,
             values=list(PORT_PRESETS.keys()),
             state="readonly",
-            width=20,
+            width=30,
             font=("Segoe UI", 9)
         )
         preset_combo.pack(side="left", padx=5)
