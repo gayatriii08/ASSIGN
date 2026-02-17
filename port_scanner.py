@@ -612,7 +612,7 @@ class PortScannerGUI:
                 text=f"Scanning... {scanned}/{total} ports ({progress:.1f}%)"
             ))
         
-        # Run scan
+        # scan
         result = self.scanner.scan(progress_callback)
         
         # Display results on main thread
