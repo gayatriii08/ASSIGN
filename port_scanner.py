@@ -61,7 +61,7 @@ class PortScannerGUI:
     # ------------------------------------------------------------------ UI --
 
     def _build_ui(self):
-        # ── Top bar ──────────────────────────────────────────────────────────
+        # Top bar 
         top = tk.Frame(self.root, bg=DARK_BG, pady=12, padx=16)
         top.pack(fill="x")
 
